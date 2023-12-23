@@ -27,7 +27,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 const loader = new GLTFLoader();
 // Load a GLB model
 loader.load(
-    'F22.glb',
+    'name.gltf',
     function (gltf) {
         // Get the loaded model
         const model = gltf.scene;
