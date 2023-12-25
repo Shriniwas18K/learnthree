@@ -1,25 +1,25 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html,
 body {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
-#joystick {
-  transform: scale(3);
-  position: absolute;
-  top: 80%;
-  left: 50%;
+@media screen and (min-width:1080) {
+    #joystick {
+        display: none
+    }
 }
 
-@media screen and (min-width:1080px) and (orientation:landscape) {
-  #joystick {
-    display: none;
-  }
+@media screen and (max-width:1080){
+    #joystick {
+        transform: scale(1.5);
+        position: absolute;
+    }
 }
