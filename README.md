@@ -1,0 +1,1 @@
+This is mini-project made during learning three.js , but couldnt make it complete due to limitations of threejs library and bundle size increased due to gltf models.You can navigate using FPS controls and joystick.The controls and geometry is handled using custom js code
